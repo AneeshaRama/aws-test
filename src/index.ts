@@ -7,7 +7,7 @@ const port = 3000;
 app.use(json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello from the server. V3!!!" });
+  res.json({ message: "Hello from the server" });
 });
 
 app.listen(port, () => {
